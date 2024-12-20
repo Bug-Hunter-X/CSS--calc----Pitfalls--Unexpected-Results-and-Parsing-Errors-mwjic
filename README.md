@@ -1,0 +1,3 @@
+# CSS `calc()` Pitfalls
+
+This repository demonstrates common errors encountered when using the `calc()` function in CSS.  The `bug.css` file shows examples of incorrect usage, while `bugSolution.css` provides the corrected versions.  Issues include missing spaces between operators and operands, and mixing incompatible units within a single `calc()` expression.  Learn how to avoid these problems for reliable CSS calculations.
