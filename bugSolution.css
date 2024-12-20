@@ -1,0 +1,27 @@
+/* bugSolution.css */
+
+/* Correct usage of calc(), with spaces around operators and compatible units */
+.container {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.element {
+  width: calc(50% - 10px);
+  height: calc(100px + 2em); /*em and px can coexist */ 
+}
+
+/*In this case, we can avoid calc and just use % since width of children add up to 100%*/
+.flex-container{
+  display: flex;
+}
+
+.flex-item {
+  width: 50%;
+}
+
+/*Avoid incompatible units*/
+/*.bad-example {
+  width: calc(50% - 10em); /*In this case we are mixing % and em units*/
+}*/
